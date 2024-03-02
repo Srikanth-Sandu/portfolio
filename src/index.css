@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.nav{
+  width: 100%;
+  height: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(lightblue,grey);
+  box-shadow: 3px 3px 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav h1{
+  margin-left: 30px;
+}
+.navbuttons{
+  width:50%;
+  display: flex;
+  justify-content: space-around;
+}
+#main{
+  height:300px;
+  margin-top:80px;
+  display: flex;
+  justify-content: space-between;
+}
+.maindiv-1{
+  width:60%;
+  background-image: linear-gradient(rgb(29, 153, 194),rgb(236, 139, 139));
+  font-size: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
+}
+.maindiv-2{
+  width: 38%;
+  box-shadow: 3px 3px 3px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.maindiv-2 img{
+  width:520px;
+  height:300px;
+}
+#assignments{
+  display: flex;
+  justify-content: space-around;
+}
+#assignments button {
+  width:150px;
+  height:50px;
+  color: white ;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px;
+  background-image: linear-gradient(rgb(29, 153, 194),rgb(236, 139, 139));
+}
+.skills img{
+  width:100px;
+  height:100px;
 }
